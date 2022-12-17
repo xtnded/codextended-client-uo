@@ -1,29 +1,23 @@
-# Call of Duty Extended [Client]
+# Call of Duty UO Extended [Client]
 
-CoDExtended Client (1.1x), is a client-side modification for Call of Duty 1 1.1.
+CoDExtended Client (1.51x), is a client-side modification for Call of Duty UO 1.51.
 
 ## Changes/additions
 
-- server list name cleanup (removed invalid characters which pushed servers to top)
-- fixed  "invalid CD-Key" when using fs_game / mods
-- cURL (HTTP/fast) download
-- new UI elements (cg_xui_scoreboard, cg_xui_connect, cg_xui_fps)
+- new UI element (cg_xui_fps)
 - Discord Rich Presence
-- unlocked FOV
+- unlocked FOV,thirdperson and thirdperson angle
+- increased gamestate memory
 - bugfixes
 
 ## Building from source
 
 Build with Visual Studio<br>
-Rename old mss32.dll to miles32.dll<br>
-Copy newly compiled DLL to game directory and rename it to mss32.dll<br>
+Copy newly compiled DLL to game directory<br>
 ???<br>
 PROFIT<br>
 
 ## Notice
-
-The official 1.1x source code is private. This build will not let you play on 1.1x-enforced servers.  
-If you wish to add your own features, add your features with a pull request so we can include them in the next official release.
 
 Forum: http://xtnded.org  
 Discord: http://discord.cod1x.eu  
